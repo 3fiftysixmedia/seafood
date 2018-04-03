@@ -1,0 +1,226 @@
+/*
+	Theme Name: HTML5 Blank
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Version: 1.4.3
+	Author: Todd Motto (@toddmotto)
+	Author URI: http://toddmotto.com
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+
+.navbar {
+    background-color: #b4d2ed;
+    min-height:40px;
+}
+.navbar-default .navbar-nav>li>a {
+    padding:10px;
+    color: #000;
+}
+
+.bg-box {
+    padding:30px;
+    min-height:350px;
+    background-repeat:none;
+    background-size:cover;
+    font-size:26px;
+}
+
+h1 {
+    font-size:28px;
+    margin-top:50px;
+}
+
+h2 {
+    font-size:22px;
+    margin-top:10px;
+}
+
+.contact-header img {
+    height:30px;
+}
+
+.search-icon {
+    background-image:url('/wp-content/themes/seafood/img/search-icon.png');
+    background-size:cover;
+    height: 34px;
+    width: 34px;
+    border-radius: 0;
+    border: 0;
+    margin-left: -4px;
+}
+
+.search-icon:hover {
+    background-color:none;
+}
+
+.white-text {
+    color:#fff;
+}
+
+.contact-header .number {
+    margin-right:60px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.contact-header h3{
+    font-size:16px;
+    color:#003163;
+    display:inline-block;
+    margin:0;
+}
+
+.navbar-default .navbar-nav>.current-menu-item>a, .navbar-default .navbar-nav>.current-menu-item>a:focus, .navbar-default .navbar-nav>.current-menu-item>a:hover {
+    background-color: #003163;
+    color: #fff;
+}
+
+.navbar-nav .current-menu-item:after {
+    top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 49, 99, 0);
+	border-top-color: #003163;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+
+.seperator {
+    width:1px;
+    background-color: #000;
+    height:50%;
+    position:absolute;
+    right:0;
+    top:25%;
+}
+
+.navbar-form {
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+
+.navbar-form .btn span {
+    font-size:19px;
+}
+.navbar-form .form-control {
+    width: 170px;
+    border: 1px solid #003163;
+    border-radius: 0;
+}
+
+.titles {
+    margin-bottom:30px;
+}
+
+#main-slider img {
+    width:100%;
+}
+
+#main-slider .slider-content {
+    position: relative;
+    bottom: 106px;
+    margin-bottom: -106px;
+    background:rgba(0, 49, 99, 0.5);
+    padding:15px;
+}
+
+#main-slider .read-more {
+    position: absolute;
+    bottom: -75px;
+    right: 15px;
+}
+
+#main-slider h3 {
+    margin-top:0;
+    color:#fff;
+}
+#main-slider p {
+    margin-bottom:0;
+    color:#fff;
+}
+
+.box h3 {
+    padding:6px;
+    font-size:20px;
+    color:#fff;
+    padding-left:80px;
+}
+
+.box h3 img {
+    position: absolute;
+    height: 60px;
+    top: 7px;
+    left: 25px;
+}
+
+.box .white-background h3 {
+    color:#000;
+}
+
+#latest-block .news {
+    background:#96935d;
+}
+
+#latest-block .events {
+    background:#c45141;
+}
+
+#latest-block .support {
+    background:#3a95b0;
+}
+
+.blue-bg {
+    background:#003163;
+    padding:30px 15px 15px 15px;
+}
+
+.subfooter .white-background {
+    background:#fff;
+}
+
+.subfooter h3 {
+    background:#b4d2ee;
+}
+
+.subfooter .white-background p {
+    padding:15px;
+}
+
+.subfooter form {
+    padding:15px;
+}
+.subfooter label {
+    font-weight:300;
+}
+.subfooter .form-control {
+    background:#d8e8f6;
+    border-radius:0;
+    height:30px;
+}
+
+.subfooter textarea.form-control {
+    height:100px;
+}
+
+footer {
+    background:#d8e8f6;
+    padding:15px 0;
+}
+
+footer a {
+    color:#000;
+    text-decoration: none;
+}

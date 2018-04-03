@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.palmerminto.com",
+  "port": "21",
+  "target": "\\",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "chris@seafood-scotland.palmerminto.com",
+  "watch": [],
+  "password": "[NbIoktn[7yK"
+}
